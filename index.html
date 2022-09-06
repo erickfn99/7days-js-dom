@@ -12,12 +12,14 @@
 
         <form class="formulario" data-formulario> 
             <label for="campo-nome">Nome</label>
-            <input type="text" name="nome" id="campo-nome" maxlength="120" required>
+            <input type="text" name="nome" id="campo-nome" minlength="3" maxlength="120" pattern="[A-Z]" required>
 
             <label for="campo-nascimento">Data de Nascimento</label>
             <input type="date" name="nascimento" id="campo-nascimento" required>
 
             <button type="submit">Salvar</button>
         </form>
+
+        <script src="assets/js/validacao.js"></script>
     </body>
 </html>

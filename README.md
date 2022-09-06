@@ -3,3 +3,4 @@ Projeto do desafio 7 Days of Code da Alura focado em manipulação do DOM com Ja
 
 Tópicos abordados:
 - Dia 1: Construção do Formulário
+- Dia 2: Adicionando camada de validação
